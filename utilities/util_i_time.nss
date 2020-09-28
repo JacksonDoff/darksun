@@ -468,12 +468,13 @@ string _CreateTimeVector(int nMode, int nVector, int nYear = -1, int nMonth = -1
     if (nMinute == -1) nMinute = GetTimeMinute();
     if (nSecond == -1) nSecond = GetTimeSecond();
 
-    string sTime = AddListItem(sTime, IntToString(nYear));
-           sTime = AddListItem(sTime, IntToString(nMonth));
-           sTime = AddListItem(sTime, IntToString(nDay));
-           sTime = AddListItem(sTime, IntToString(nHour));
-           sTime = AddListItem(sTime, IntToString(nMinute));
-           sTime = AddListItem(sTime, IntToString(nSecond));
+    string sTime;
+    sTime = AddListItem(sTime, IntToString(nYear));
+    sTime = AddListItem(sTime, IntToString(nMonth));
+    sTime = AddListItem(sTime, IntToString(nDay));
+    sTime = AddListItem(sTime, IntToString(nHour));
+    sTime = AddListItem(sTime, IntToString(nMinute));
+    sTime = AddListItem(sTime, IntToString(nSecond));
     
     if ((sTime = _ValidateTime(sTime, nMode, nVector)) == TIME_INVALID)
         return TIME_INVALID;
@@ -551,11 +552,12 @@ string _ConvertSecondsVectorToGameTime(string sTime, int nVector = VECTOR_DIFFER
     nMinute = nSecond / nPerMinute;
     nSecond -= nMinute * nPerMinute;
 
-    string sTime = AddListItem(sTime, IntToString(nYear));
-           sTime = AddListItem(sTime, IntToString(nMonth));
-           sTime = AddListItem(sTime, IntToString(nDay));
-           sTime = AddListItem(sTime, IntToString(nHour));
-           sTime = AddListItem(sTime, IntToString(nMinute));
+    string sTime;
+    sTime = AddListItem(sTime, IntToString(nYear));
+    sTime = AddListItem(sTime, IntToString(nMonth));
+    sTime = AddListItem(sTime, IntToString(nDay));
+    sTime = AddListItem(sTime, IntToString(nHour));
+    sTime = AddListItem(sTime, IntToString(nMinute));
     return sTime = AddListItem(sTime, IntToString(nSecond));
 }
 
@@ -588,8 +590,9 @@ string _GetGameTimeDifference(string sTime1, string sTime2, int nReturn)
         nYears = 0;
     }
 
-    string sTime = AddListItem(sTime, IntToString(nYears));
-           sTime = AddListItem(sTime, IntToString(nSeconds));
+    string sTime;
+    sTime = AddListItem(sTime, IntToString(nYears));
+    sTime = AddListItem(sTime, IntToString(nSeconds));
 
     if (nReturn == RETURN_SECONDS)
         return sTime;
@@ -831,12 +834,13 @@ string _GetPrecisionTime(string sTime = TIME_INVALID, int nPrecision = TIME_SECO
         return TIME_INVALID;
     }
 
-    string sTime = AddListItem(sTime, IntToString(nYear));
-           sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_MONTHS  ? nMonth  : 1));
-           sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_DAYS    ? nDay    : 1));
-           sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_HOURS   ? nHour   : 0));
-           sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_MINUTES ? nMinute : 0));
-           sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_SECONDS ? nSecond : 0));
+    string sTime;
+    sTime = AddListItem(sTime, IntToString(nYear));
+    sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_MONTHS  ? nMonth  : 1));
+    sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_DAYS    ? nDay    : 1));
+    sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_HOURS   ? nHour   : 0));
+    sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_MINUTES ? nMinute : 0));
+    sTime = AddListItem(sTime, IntToString(nPrecision >= TIME_SECONDS ? nSecond : 0));
     return _ValidateTime(sTime, MODE_SYSTEM);
 }
 
