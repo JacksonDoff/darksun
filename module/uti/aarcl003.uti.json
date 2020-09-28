@@ -6,11 +6,11 @@
   },
   "ArmorPart_Belt": {
     "type": "byte",
-    "value": 0
+    "value": 6
   },
   "ArmorPart_LBicep": {
     "type": "byte",
-    "value": 1
+    "value": 15
   },
   "ArmorPart_LFArm": {
     "type": "byte",
@@ -18,23 +18,23 @@
   },
   "ArmorPart_LFoot": {
     "type": "byte",
-    "value": 1
+    "value": 9
   },
   "ArmorPart_LHand": {
     "type": "byte",
-    "value": 1
+    "value": 8
   },
   "ArmorPart_LShin": {
     "type": "byte",
-    "value": 1
+    "value": 13
   },
   "ArmorPart_LShoul": {
     "type": "byte",
-    "value": 0
+    "value": 6
   },
   "ArmorPart_LThigh": {
     "type": "byte",
-    "value": 1
+    "value": 15
   },
   "ArmorPart_Neck": {
     "type": "byte",
@@ -42,11 +42,11 @@
   },
   "ArmorPart_Pelvis": {
     "type": "byte",
-    "value": 1
+    "value": 25
   },
   "ArmorPart_RBicep": {
     "type": "byte",
-    "value": 1
+    "value": 15
   },
   "ArmorPart_RFArm": {
     "type": "byte",
@@ -54,11 +54,11 @@
   },
   "ArmorPart_RFoot": {
     "type": "byte",
-    "value": 1
+    "value": 9
   },
   "ArmorPart_RHand": {
     "type": "byte",
-    "value": 1
+    "value": 8
   },
   "ArmorPart_Robe": {
     "type": "byte",
@@ -66,19 +66,19 @@
   },
   "ArmorPart_RShin": {
     "type": "byte",
-    "value": 1
+    "value": 13
   },
   "ArmorPart_RShoul": {
     "type": "byte",
-    "value": 0
+    "value": 6
   },
   "ArmorPart_RThigh": {
     "type": "byte",
-    "value": 1
+    "value": 15
   },
   "ArmorPart_Torso": {
     "type": "byte",
-    "value": 43
+    "value": 6
   },
   "BaseItem": {
     "type": "int",
@@ -90,11 +90,11 @@
   },
   "Cloth1Color": {
     "type": "byte",
-    "value": 19
+    "value": 1
   },
   "Cloth2Color": {
     "type": "byte",
-    "value": 16
+    "value": 1
   },
   "Comment": {
     "type": "cexostring",
@@ -102,7 +102,7 @@
   },
   "Cost": {
     "type": "dword",
-    "value": 15
+    "value": 1
   },
   "Cursed": {
     "type": "byte",
@@ -135,11 +135,11 @@
   },
   "Metal1Color": {
     "type": "byte",
-    "value": 0
+    "value": 128
   },
   "Metal2Color": {
     "type": "byte",
-    "value": 8
+    "value": 20
   },
   "PaletteID": {
     "type": "byte",

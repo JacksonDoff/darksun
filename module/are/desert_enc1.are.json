@@ -96,11 +96,11 @@
   },
   "OnEnter": {
     "type": "resref",
-    "value": "hook_area01"
+    "value": "asg_are_onexit"
   },
   "OnExit": {
     "type": "resref",
-    "value": "hook_area02"
+    "value": "asg_are_onexit"
   },
   "OnHeartbeat": {
     "type": "resref",
@@ -108,7 +108,7 @@
   },
   "OnUserDefined": {
     "type": "resref",
-    "value": "hook_area04"
+    "value": ""
   },
   "PlayerVsPlayer": {
     "type": "byte",

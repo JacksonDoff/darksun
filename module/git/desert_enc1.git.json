@@ -384,11 +384,13 @@
         "__struct_id": 5,
         "Appearance": {
           "type": "byte",
-          "value": 1
+          "value": 2
         },
         "Description": {
           "type": "cexolocstring",
-          "value": {}
+          "value": {
+            "0": "This is a for the ASG Spawn Kit"
+          }
         },
         "HasMapNote": {
           "type": "byte",
@@ -399,105 +401,26 @@
           "value": ""
         },
         "LocalizedName": {
-          "id": 14817,
           "type": "cexolocstring",
-          "value": {}
+          "value": {
+            "0": "ASG Creature Spawn"
+          }
         },
         "MapNote": {
           "type": "cexolocstring",
           "value": {}
         },
         "MapNoteEnabled": {
-          "type": "byte",
-          "value": 1
-        },
-        "Tag": {
-          "type": "cexostring",
-          "value": "waypoint1"
-        },
-        "TemplateResRef": {
-          "type": "resref",
-          "value": "nw_waypoint001"
-        },
-        "VarTable": {
-          "type": "list",
-          "value": [
-            {
-              "__struct_id": 0,
-              "Name": {
-                "type": "cexostring",
-                "value": "TRAVEL_WAYPOINT_TYPE"
-              },
-              "Type": {
-                "type": "dword",
-                "value": 3
-              },
-              "Value": {
-                "type": "cexostring",
-                "value": "secondary"
-              }
-            }
-          ]
-        },
-        "XOrientation": {
-          "type": "float",
-          "value": -0.9142
-        },
-        "XPosition": {
-          "type": "float",
-          "value": 17.7571
-        },
-        "YOrientation": {
-          "type": "float",
-          "value": 0.4052
-        },
-        "YPosition": {
-          "type": "float",
-          "value": 7.8951
-        },
-        "ZPosition": {
-          "type": "float",
-          "value": 3.0
-        }
-      },
-      {
-        "__struct_id": 5,
-        "Appearance": {
-          "type": "byte",
-          "value": 1
-        },
-        "Description": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "HasMapNote": {
           "type": "byte",
           "value": 0
         },
-        "LinkedTo": {
-          "type": "cexostring",
-          "value": ""
-        },
-        "LocalizedName": {
-          "id": 14817,
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNote": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNoteEnabled": {
-          "type": "byte",
-          "value": 1
-        },
         "Tag": {
           "type": "cexostring",
-          "value": "waypoint1"
+          "value": "SPAWN_nw_badger_XXXX_XXXX"
         },
         "TemplateResRef": {
           "type": "resref",
-          "value": "nw_waypoint001"
+          "value": "asg_spawnpoint"
         },
         "VarTable": {
           "type": "list",
@@ -506,7 +429,7 @@
               "__struct_id": 0,
               "Name": {
                 "type": "cexostring",
-                "value": "TRAVEL_WAYPOINT_TYPE"
+                "value": "ASG_NewTag"
               },
               "Type": {
                 "type": "dword",
@@ -514,79 +437,14 @@
               },
               "Value": {
                 "type": "cexostring",
-                "value": "secondary"
+                "value": ""
               }
-            }
-          ]
-        },
-        "XOrientation": {
-          "type": "float",
-          "value": -0.9952
-        },
-        "XPosition": {
-          "type": "float",
-          "value": 18.3078
-        },
-        "YOrientation": {
-          "type": "float",
-          "value": -0.098
-        },
-        "YPosition": {
-          "type": "float",
-          "value": 16.9008
-        },
-        "ZPosition": {
-          "type": "float",
-          "value": 3.0
-        }
-      },
-      {
-        "__struct_id": 5,
-        "Appearance": {
-          "type": "byte",
-          "value": 1
-        },
-        "Description": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "HasMapNote": {
-          "type": "byte",
-          "value": 0
-        },
-        "LinkedTo": {
-          "type": "cexostring",
-          "value": ""
-        },
-        "LocalizedName": {
-          "id": 14817,
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNote": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNoteEnabled": {
-          "type": "byte",
-          "value": 1
-        },
-        "Tag": {
-          "type": "cexostring",
-          "value": "waypoint1"
-        },
-        "TemplateResRef": {
-          "type": "resref",
-          "value": "nw_waypoint001"
-        },
-        "VarTable": {
-          "type": "list",
-          "value": [
+            },
             {
               "__struct_id": 0,
               "Name": {
                 "type": "cexostring",
-                "value": "TRAVEL_WAYPOINT_TYPE"
+                "value": "ASG_Script_On_Despawn"
               },
               "Type": {
                 "type": "dword",
@@ -594,346 +452,311 @@
               },
               "Value": {
                 "type": "cexostring",
-                "value": "secondary"
+                "value": ""
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Script_On_Spawn"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 3
+              },
+              "Value": {
+                "type": "cexostring",
+                "value": ""
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Creature_Table"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Creature_1"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 3
+              },
+              "Value": {
+                "type": "cexostring",
+                "value": ""
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Creature_2"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 3
+              },
+              "Value": {
+                "type": "cexostring",
+                "value": ""
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Creature_3"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 3
+              },
+              "Value": {
+                "type": "cexostring",
+                "value": ""
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Creature_4"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 3
+              },
+              "Value": {
+                "type": "cexostring",
+                "value": ""
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Creature_5"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 3
+              },
+              "Value": {
+                "type": "cexostring",
+                "value": ""
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Creature_6"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 3
+              },
+              "Value": {
+                "type": "cexostring",
+                "value": ""
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Spawn_Day"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 100
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Spawn_Dawn"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 100
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Spawn_Dusk"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 100
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Spawn_Night"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 100
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_WalkWayPoints"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_SpawnLeader"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 3
+              },
+              "Value": {
+                "type": "cexostring",
+                "value": ""
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Spawn_Faction"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 3
+              },
+              "Value": {
+                "type": "cexostring",
+                "value": "DEFAULT"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Spawn_Trait_Plot"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Spawn_Trait_Immortal"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Spawn_Trait_LevelMin"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Name": {
+                "type": "cexostring",
+                "value": "ASG_Spawn_Trait_LevelMax"
+              },
+              "Type": {
+                "type": "dword",
+                "value": 1
+              },
+              "Value": {
+                "type": "int",
+                "value": 0
               }
             }
           ]
         },
         "XOrientation": {
-          "type": "float",
-          "value": 0.9997
-        },
-        "XPosition": {
-          "type": "float",
-          "value": 2.4121
-        },
-        "YOrientation": {
           "type": "float",
           "value": -0.0245
         },
-        "YPosition": {
-          "type": "float",
-          "value": 12.8551
-        },
-        "ZPosition": {
-          "type": "float",
-          "value": 3.0289
-        }
-      },
-      {
-        "__struct_id": 5,
-        "Appearance": {
-          "type": "byte",
-          "value": 2
-        },
-        "Description": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "HasMapNote": {
-          "type": "byte",
-          "value": 0
-        },
-        "LinkedTo": {
-          "type": "cexostring",
-          "value": ""
-        },
-        "LocalizedName": {
-          "id": 14817,
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNote": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNoteEnabled": {
-          "type": "byte",
-          "value": 1
-        },
-        "Tag": {
-          "type": "cexostring",
-          "value": "waypoint1"
-        },
-        "TemplateResRef": {
-          "type": "resref",
-          "value": "nw_waypoint001"
-        },
-        "VarTable": {
-          "type": "list",
-          "value": [
-            {
-              "__struct_id": 0,
-              "Name": {
-                "type": "cexostring",
-                "value": "TRAVEL_WAYPOINT_TYPE"
-              },
-              "Type": {
-                "type": "dword",
-                "value": 3
-              },
-              "Value": {
-                "type": "cexostring",
-                "value": "spawn"
-              }
-            }
-          ]
-        },
-        "XOrientation": {
-          "type": "float",
-          "value": 0.741
-        },
         "XPosition": {
           "type": "float",
-          "value": 5.3273
+          "value": 10.0909
         },
         "YOrientation": {
           "type": "float",
-          "value": -0.6716
+          "value": -0.9997
         },
         "YPosition": {
           "type": "float",
-          "value": 22.0433
-        },
-        "ZPosition": {
-          "type": "float",
-          "value": 3.1087
-        }
-      },
-      {
-        "__struct_id": 5,
-        "Appearance": {
-          "type": "byte",
-          "value": 2
-        },
-        "Description": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "HasMapNote": {
-          "type": "byte",
-          "value": 0
-        },
-        "LinkedTo": {
-          "type": "cexostring",
-          "value": ""
-        },
-        "LocalizedName": {
-          "id": 14817,
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNote": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNoteEnabled": {
-          "type": "byte",
-          "value": 1
-        },
-        "Tag": {
-          "type": "cexostring",
-          "value": "waypoint1"
-        },
-        "TemplateResRef": {
-          "type": "resref",
-          "value": "nw_waypoint001"
-        },
-        "VarTable": {
-          "type": "list",
-          "value": [
-            {
-              "__struct_id": 0,
-              "Name": {
-                "type": "cexostring",
-                "value": "TRAVEL_WAYPOINT_TYPE"
-              },
-              "Type": {
-                "type": "dword",
-                "value": 3
-              },
-              "Value": {
-                "type": "cexostring",
-                "value": "spawn"
-              }
-            }
-          ]
-        },
-        "XOrientation": {
-          "type": "float",
-          "value": 0.0
-        },
-        "XPosition": {
-          "type": "float",
-          "value": 10.1226
-        },
-        "YOrientation": {
-          "type": "float",
-          "value": -1.0
-        },
-        "YPosition": {
-          "type": "float",
-          "value": 12.8196
-        },
-        "ZPosition": {
-          "type": "float",
-          "value": 3.0
-        }
-      },
-      {
-        "__struct_id": 5,
-        "Appearance": {
-          "type": "byte",
-          "value": 2
-        },
-        "Description": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "HasMapNote": {
-          "type": "byte",
-          "value": 0
-        },
-        "LinkedTo": {
-          "type": "cexostring",
-          "value": ""
-        },
-        "LocalizedName": {
-          "id": 14817,
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNote": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNoteEnabled": {
-          "type": "byte",
-          "value": 1
-        },
-        "Tag": {
-          "type": "cexostring",
-          "value": "waypoint1"
-        },
-        "TemplateResRef": {
-          "type": "resref",
-          "value": "nw_waypoint001"
-        },
-        "VarTable": {
-          "type": "list",
-          "value": [
-            {
-              "__struct_id": 0,
-              "Name": {
-                "type": "cexostring",
-                "value": "TRAVEL_WAYPOINT_TYPE"
-              },
-              "Type": {
-                "type": "dword",
-                "value": 3
-              },
-              "Value": {
-                "type": "cexostring",
-                "value": "spawn"
-              }
-            }
-          ]
-        },
-        "XOrientation": {
-          "type": "float",
-          "value": 1.0
-        },
-        "XPosition": {
-          "type": "float",
-          "value": 4.1376
-        },
-        "YOrientation": {
-          "type": "float",
-          "value": 0.0
-        },
-        "YPosition": {
-          "type": "float",
-          "value": 8.599399999999999
-        },
-        "ZPosition": {
-          "type": "float",
-          "value": 3.0
-        }
-      },
-      {
-        "__struct_id": 5,
-        "Appearance": {
-          "type": "byte",
-          "value": 2
-        },
-        "Description": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "HasMapNote": {
-          "type": "byte",
-          "value": 0
-        },
-        "LinkedTo": {
-          "type": "cexostring",
-          "value": ""
-        },
-        "LocalizedName": {
-          "id": 14817,
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNote": {
-          "type": "cexolocstring",
-          "value": {}
-        },
-        "MapNoteEnabled": {
-          "type": "byte",
-          "value": 1
-        },
-        "Tag": {
-          "type": "cexostring",
-          "value": "waypoint1"
-        },
-        "TemplateResRef": {
-          "type": "resref",
-          "value": "nw_waypoint001"
-        },
-        "VarTable": {
-          "type": "list",
-          "value": [
-            {
-              "__struct_id": 0,
-              "Name": {
-                "type": "cexostring",
-                "value": "TRAVEL_WAYPOINT_TYPE"
-              },
-              "Type": {
-                "type": "dword",
-                "value": 3
-              },
-              "Value": {
-                "type": "cexostring",
-                "value": "spawn"
-              }
-            }
-          ]
-        },
-        "XOrientation": {
-          "type": "float",
-          "value": -0.6344
-        },
-        "XPosition": {
-          "type": "float",
-          "value": 13.6058
-        },
-        "YOrientation": {
-          "type": "float",
-          "value": -0.773
-        },
-        "YPosition": {
-          "type": "float",
-          "value": 21.6203
+          "value": 22.6397
         },
         "ZPosition": {
           "type": "float",

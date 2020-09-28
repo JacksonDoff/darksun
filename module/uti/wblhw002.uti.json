@@ -18,7 +18,7 @@
   },
   "Cost": {
     "type": "dword",
-    "value": 24
+    "value": 48044
   },
   "Cursed": {
     "type": "byte",
@@ -34,26 +34,26 @@
   },
   "Identified": {
     "type": "byte",
-    "value": 1
+    "value": 0
   },
   "LocalizedName": {
     "id": 178,
     "type": "cexolocstring",
     "value": {
-      "0": "Stone Warhammer"
+      "0": "Stone Warhammer +5"
     }
   },
   "ModelPart1": {
     "type": "byte",
-    "value": 13
+    "value": 71
   },
   "ModelPart2": {
     "type": "byte",
-    "value": 13
+    "value": 71
   },
   "ModelPart3": {
     "type": "byte",
-    "value": 13
+    "value": 71
   },
   "PaletteID": {
     "type": "byte",
@@ -65,7 +65,39 @@
   },
   "PropertiesList": {
     "type": "list",
-    "value": []
+    "value": [
+      {
+        "__struct_id": 0,
+        "ChanceAppear": {
+          "type": "byte",
+          "value": 100
+        },
+        "CostTable": {
+          "type": "byte",
+          "value": 2
+        },
+        "CostValue": {
+          "type": "word",
+          "value": 5
+        },
+        "Param1": {
+          "type": "byte",
+          "value": 255
+        },
+        "Param1Value": {
+          "type": "byte",
+          "value": 0
+        },
+        "PropertyName": {
+          "type": "word",
+          "value": 6
+        },
+        "Subtype": {
+          "type": "word",
+          "value": 0
+        }
+      }
+    ]
   },
   "StackSize": {
     "type": "word",

@@ -46,13 +46,6 @@
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "kled"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
           "value": "hiddenvillage001"
         }
       },
@@ -76,12 +69,15 @@
           "type": "resref",
           "value": "fortskonz"
         }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "kled"
+        }
       }
     ]
-  },
-  "Mod_CacheNSSList": {
-    "type": "list",
-    "value": []
   },
   "Mod_Creator_ID": {
     "type": "int",
@@ -115,19 +111,19 @@
   },
   "Mod_Entry_Dir_X": {
     "type": "float",
-    "value": 0.4929
+    "value": 0.0
   },
   "Mod_Entry_Dir_Y": {
     "type": "float",
-    "value": 0.8701
+    "value": 1.0
   },
   "Mod_Entry_X": {
     "type": "float",
-    "value": 15.6026
+    "value": 15.3233
   },
   "Mod_Entry_Y": {
     "type": "float",
-    "value": 17.3967
+    "value": 16.0786
   },
   "Mod_Entry_Z": {
     "type": "float",
@@ -222,7 +218,7 @@
   },
   "Mod_MinGameVer": {
     "type": "cexostring",
-    "value": "1.80"
+    "value": "1.81"
   },
   "Mod_MinPerHour": {
     "type": "byte",
@@ -312,11 +308,11 @@
   },
   "Mod_StartHour": {
     "type": "byte",
-    "value": 13
+    "value": 6
   },
   "Mod_StartMonth": {
     "type": "byte",
-    "value": 6
+    "value": 1
   },
   "Mod_StartMovie": {
     "type": "resref",

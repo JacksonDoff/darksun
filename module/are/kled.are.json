@@ -30,11 +30,11 @@
   },
   "Flags": {
     "type": "dword",
-    "value": 0
+    "value": 5
   },
   "FogClipDist": {
     "type": "float",
-    "value": 112.0
+    "value": 95.0
   },
   "Height": {
     "type": "int",
@@ -54,7 +54,7 @@
   },
   "LoadScreenID": {
     "type": "word",
-    "value": 0
+    "value": 77
   },
   "ModListenCheck": {
     "type": "int",
@@ -74,7 +74,7 @@
   },
   "MoonFogAmount": {
     "type": "byte",
-    "value": 10
+    "value": 5
   },
   "MoonFogColor": {
     "type": "dword",
@@ -104,7 +104,7 @@
   },
   "OnHeartbeat": {
     "type": "resref",
-    "value": ""
+    "value": "spawn_sample_hb"
   },
   "OnUserDefined": {
     "type": "resref",
@@ -128,15 +128,15 @@
   },
   "SunAmbientColor": {
     "type": "dword",
-    "value": 3622995
+    "value": 21672
   },
   "SunDiffuseColor": {
     "type": "dword",
-    "value": 27349
+    "value": 12642
   },
   "SunFogAmount": {
     "type": "byte",
-    "value": 10
+    "value": 8
   },
   "SunFogColor": {
     "type": "dword",
@@ -13245,7 +13245,7 @@
         },
         "Tile_ID": {
           "type": "int",
-          "value": 3
+          "value": 189
         },
         "Tile_MainLight1": {
           "type": "byte",
@@ -13257,7 +13257,7 @@
         },
         "Tile_Orientation": {
           "type": "int",
-          "value": 1
+          "value": 3
         },
         "Tile_SrcLight1": {
           "type": "byte",
